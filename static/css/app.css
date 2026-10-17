@@ -1,0 +1,9 @@
+body { background: #f5f7fa; }
+.navbar-brand { letter-spacing: .3px; }
+.auth-card { max-width: 460px; margin: 4rem auto; }
+.form-card { max-width: 720px; margin: 2rem auto; }
+.stat-card { background: #fff; border-radius: 14px; padding: 1.25rem; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.stat-card span { display:block; color:#6c757d; margin-bottom:.35rem; }
+.stat-card strong { font-size:1.7rem; }
+.card { border: 0; border-radius: 14px; }
+table td, table th { vertical-align: middle; }

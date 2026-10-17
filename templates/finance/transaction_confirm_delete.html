@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Delete Transaction — FinTrack{% endblock %}
+{% block content %}
+<div class="form-card card shadow-sm"><div class="card-body">
+<h2>Delete transaction?</h2>
+<p>{{ transaction.category.name }} — ₹{{ transaction.amount|floatformat:2 }}</p>
+<form method="post">{% csrf_token %}<button class="btn btn-danger">Confirm delete</button> <a href="{% url 'transactions' %}" class="btn btn-secondary">Cancel</a></form>
+</div></div>
+{% endblock %}
