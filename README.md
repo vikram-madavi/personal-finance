@@ -1,4 +1,4 @@
-# Personal Finance Management System — Version 0
+# Personal Finance Management System 
 
 AI-assisted Week 1 project for Cyber Security coursework.
 
